@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.first {
+  background-image: url("../images/paris.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+  .first .firstText {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    padding-top: 150px; }
+  .first .firstSearch {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .first .firstSearch .insideDiv {
+      border-radius: 6px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      height: 50px; }
+  .first .inputs {
+    height: 45px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 6px; }
+  .first .qsearch {
+    display: flex;
+    align-items: center; }
+    .first .qsearch p {
+      padding: 0px 10px;
+      font-weight: 500;
+      cursor: pointer; }
+  .first input.searchBar {
+    width: 450px; }
+
+.hide {
+  display: none; }
+
+.results {
+  position: relative; }
+  .results .second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6px;
+    border-bottom: solid grey;
+    padding-bottom: 6px;
+    height: 11vh;
+    font-size: 16px; }
+    .results .second input, .results .second select {
+      outline: none;
+      border: none;
+      font-size: 16px; }
+    .results .second .divSize {
+      display: flex; }
+      .results .second .divSize div {
+        display: flex;
+        border: solid 1px grey;
+        padding: 0 2px; }
+      .results .second .divSize .size {
+        width: 50px; }
+      .results .second .divSize .x {
+        padding: 2px 5px 0px 5px; }
+    .results .second #newSearch {
+      border-bottom: solid 1px grey; }
+    .results .second .position {
+      position: relative; }
+      .results .second .position .show {
+        position: absolute;
+        bottom: -25px;
+        left: -2px; }
+    .results .second .false {
+      color: red; }
+    .results .second .true {
+      color: green; }
+    .results .second .pointer {
+      cursor: pointer; }
+  .results .third #images {
+    display: flex;
+    flex-wrap: wrap; }
+  .results .third .tagsContainer {
+    position: relative; }
+    .results .third .tagsContainer .tags {
+      position: absolute;
+      left: 7px;
+      top: 12px; }
+    .results .third .tagsContainer span {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 6px; }
+  .results .third img {
+    margin: 6px; }
+
+.gallery {
+  background-color: black;
+  text-align: center; }
+  .gallery img {
+    height: 100vh; }
+
+/*# sourceMappingURL=main.css.map */
