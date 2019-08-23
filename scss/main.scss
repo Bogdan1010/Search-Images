@@ -123,6 +123,7 @@
         }
         .tagsContainer{
             position: relative;
+            width: 50%;
             .tags{
                 position: absolute;
                 left: 7px;
@@ -136,6 +137,7 @@
         }
         img{
             margin: 6px;
+            width: 98%;
         }
     }
 }
